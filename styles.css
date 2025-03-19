@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 1px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: white;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+}
+h2 {
+    font-family: 'Sacramento', cursive;
+}
+h3 {
+    font-family: 'Sacramento', cursive;
+}
+
+.order-button {
+    padding: 20px;
+    margin-right: 50px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.location-button {
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column img {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    max-width: 350px; 
+    max-height: 350px;
+}
+#first-name-error {
+    color: red;
+}
